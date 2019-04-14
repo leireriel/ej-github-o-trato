@@ -26,7 +26,7 @@ function printName(username) {
             break;
         }
         let letter = username[i];
-        list.innerHTML += `<li>${letter}</li>`;
+        list.innerHTML += `<li class="item">${letter}</li>`;
     }
 }
 
